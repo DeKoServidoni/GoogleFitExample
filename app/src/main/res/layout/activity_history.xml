@@ -1,0 +1,48 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:layout_weight="0.1"
+        android:text="@string/history_title"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textColor="@android:color/black" />
+
+    <Button
+        android:id="@+id/clean_history_button"
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:text="@string/clean"
+        android:layout_weight="0.1"/>
+
+    <TextView
+        android:id="@+id/read_request_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:layout_weight="0.4"
+        android:maxLines="10000"
+        android:scrollbars = "vertical"
+        android:background="@android:color/black"
+        android:textColor="@android:color/white" />
+
+    <Button
+        android:id="@+id/read_request_button"
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:text="@string/history_read"
+        android:layout_weight="0.2"/>
+
+    <Button
+        android:id="@+id/insert_request_button"
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:text="@string/history_insert"
+        android:layout_weight="0.2"/>
+
+</LinearLayout>

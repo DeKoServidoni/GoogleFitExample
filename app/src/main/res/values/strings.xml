@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Google Fit Example</string>
+
+    <string name="clean">Clean</string>
+
+    <!-- custom -->
+    <string name="custom_insert">Insert custom data</string>
+    <string name="custom_read">Read custom data</string>
+    <string name="custom_title">Custom Data</string>
+
+    <!-- history -->
+    <string name="history_insert">Insert into history</string>
+    <string name="history_read">Read from history</string>
+    <string name="history_title">History API</string>
+
+    <!-- main -->
+    <string name="main_button_history">History API</string>
+    <string name="main_button_custom">Custom Data</string>
+</resources>
